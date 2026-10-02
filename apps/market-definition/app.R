@@ -213,7 +213,8 @@ tab_model <- nav_panel(
 
 ui <- page_navbar(
   fillable = FALSE,
-  title = "Antitrust Lab · Market definition",
+  title = lab_title("Market definition"),
+  window_title = "Antitrust Lab",
   theme = lab_theme(),
   navbar_options = lab_navbar(),
   header = div(class = "container-fluid",

@@ -17,3 +17,6 @@ a { color: #0F5499; }
 .tool-card.live { border-left-color: #0F5499; }
 :root { --lab-blue: #0F5499; --lab-muted: #66605C; }
 .nav-footer, footer.footer { background-color: #FFF9F2 !important; border-top: 1px solid #EBDFD3; }
+
+/* Logo in the navigation bar */
+.navbar-logo { max-height: 26px; }

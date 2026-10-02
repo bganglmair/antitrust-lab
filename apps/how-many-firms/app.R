@@ -174,7 +174,8 @@ welfare_plot <- function(d, nsel, nw, ne) {
 ui <- page_navbar(
   id = "tab",
   fillable = FALSE,
-  title = "Antitrust Lab · How many firms?",
+  title = lab_title("How many firms?"),
+  window_title = "Antitrust Lab",
   theme = lab_theme(),
   navbar_options = lab_navbar(),
   sidebar = sb,

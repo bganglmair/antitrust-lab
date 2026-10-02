@@ -5,11 +5,17 @@ project:
     - index.qmd
     - instructors.qmd
     - about.qmd
+  resources:
+    - images/*
 
 website:
   title: "Antitrust Lab"
+  favicon: images/favicon.svg
   site-url: "https://bganglmair.github.io/antitrust-lab/"
   navbar:
+    title: false
+    logo: images/antitrust-lab-logo.svg
+    logo-alt: "Antitrust Lab"
     left:
       - href: index.qmd
         text: Tools

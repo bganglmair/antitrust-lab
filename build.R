@@ -24,7 +24,13 @@ for (a in apps) {
   f <- file.path("docs", a, "index.html")
   h <- paste(readLines(f, warn = FALSE), collapse = "\n")
   stopifnot(grepl("</head>", h, fixed = TRUE))
-  if (!grepl("goatcounter", h, fixed = TRUE)) writeLines(sub("</head>", paste0(counter, "\n</head>"), h, fixed = TRUE), f)
+  # Browser-tab title: shinylive's wrapper page says "Shiny App"; use the title the app sets (window_title)
+  wt <- regmatches(paste(readLines(file.path("apps", a, "app.R"), warn = FALSE), collapse = "\n"),
+                   regexpr('window_title = "[^"]*"', paste(readLines(file.path("apps", a, "app.R"), warn = FALSE), collapse = "\n")))
+  wt <- eval(parse(text = sub("window_title = ", "", wt)))
+  h <- sub("<title>[^<]*</title>", paste0("<title>", wt, "</title>"), h)
+  icon <- '<link rel="icon" type="image/svg+xml" href="../images/favicon.svg">'
+  if (!grepl("goatcounter", h, fixed = TRUE)) writeLines(sub("</head>", paste0(icon, "\n", counter, "\n</head>"), h, fixed = TRUE), f)
 }
 
 # 5. GitHub Pages: no Jekyll processing

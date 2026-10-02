@@ -22,6 +22,10 @@ Each tool is a small program. When you open a tool, the program is downloaded in
 
 **Feedback form.** The "Feedback" link opens [a form on Google Forms](https://docs.google.com/forms/d/e/1FAIpQLSdvIhiTo6BXO_Byt6Qrma8wXMDMbbSGmEHWPUL70CylOBTwGg/viewform). Using it is voluntary. The form asks for no name and no email address; what you write is visible only to me. Google's [privacy policy](https://policies.google.com/privacy) applies to the form.
 
+## The logo
+
+The logo shows a market with three firms that have market shares of 50, 30 and 20 percent. The side of each square is a firm's market share, so the three squares span the diagonal of the market. The area of the squares, as a share of the whole square, is the Herfindahl-Hirschman Index (HHI) divided by 10,000. Here the HHI is 3,800.
+
 ## Contact
 
 Bernhard Ganglmair
