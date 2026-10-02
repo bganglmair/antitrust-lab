@@ -49,10 +49,10 @@ eu_below <- function(post, delta, comb) {
 
 # Which EU route applies (for the explanation text)
 eu_route <- function(post, delta, comb) {
-  if (comb <= 0.25) return("combined share of 25% or less (para 18)")
-  if (post < 1000) return("HHI after the merger below 1,000 (para 19)")
-  if (post <= 2000 && delta < 250) return("HHI 1,000 to 2,000 with a change below 250 (para 20; exceptions apply)")
-  if (post > 2000 && delta < 150) return("HHI above 2,000 with a change below 150 (para 20; exceptions apply)")
+  if (comb <= 0.25) return("the combined share is 25% or less")
+  if (post < 1000) return("the HHI after the merger is below 1,000")
+  if (post <= 2000 && delta < 250) return("the HHI is between 1,000 and 2,000 and rises by less than 250")
+  if (post > 2000 && delta < 150) return("the HHI is above 2,000 and rises by less than 150")
   NA_character_
 }
 

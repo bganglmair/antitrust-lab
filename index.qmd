@@ -3,7 +3,7 @@ title: "Antitrust Lab"
 subtitle: "Interactive tools for competition economics"
 ---
 
-Change the inputs, watch the outcome, and test the economics behind competition law. Each tool runs in your browser: no installation, no login. The first visit takes a little longer while the tool loads.
+Change the inputs, watch the outcome, and test the economics behind competition law. Each tool runs in your browser and needs no installation or login. The first visit takes a little longer while the tool loads.
 
 ::: {.part}
 ## Markets and market power

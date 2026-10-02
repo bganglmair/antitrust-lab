@@ -9,13 +9,13 @@ heinz_source <- htmltools::tagList(
 
 heinz_story <- htmltools::tagList(
   htmltools::p("In 2000, Heinz agreed to buy Beech-Nut. In US baby food, Gerber sold about two of every three jars; Heinz (17.4%) and Beech-Nut (15.4%) were a distant second and third. The FTC went to court to stop the deal."),
-  htmltools::p(htmltools::strong("Before you move a slider: "),
+  htmltools::p(htmltools::strong("Decide before you move a slider. "),
     "Heinz and Beech-Nut were rarely sold in the same store. Can a merger between them raise prices?"))
 
 heinz_decided <- htmltools::tagList(
   htmltools::p("The district court refused to block the merger (October 2000). The Court of Appeals reversed in April 2001 and sent the case back for a preliminary injunction; Heinz called off the deal the same day."),
-  htmltools::p("The court relied on the HHI: 4,775 before the merger and an increase of 510, far above the thresholds, which created a strong presumption of harm. Heinz and Beech-Nut were rarely on the same shelf (Heinz in about 40% of supermarkets, Beech-Nut in about 45%, Gerber in over 90%), but they competed fiercely for the second position on retailers' shelves. The court rejected the claimed efficiencies as not proven."),
-  htmltools::p("With the rounded shares and the remaining 2.2% counted as one firm, the tool gets 4,770 and 536. The court's increase of 510 cannot be reproduced from the shares it quotes; it comes from the district court's findings. The court applied Section 7 of the Clayton Act and used the HHI levels of the 1992 Guidelines (1,800 and 100). The 2010 Guidelines raised them to 2,500 and 200; the 2023 Guidelines returned to 1,800 and 100."))
+  htmltools::p("The court relied on the HHI, which was 4,775 before the merger and rose by 510. Both numbers are far above the thresholds, which created a strong presumption of harm. Heinz and Beech-Nut were rarely on the same shelf (Heinz in about 40% of supermarkets, Beech-Nut in about 45%, Gerber in over 90%), but they competed fiercely for the second position on retailers' shelves. The court rejected the claimed efficiencies as not proven."),
+  htmltools::p("With the rounded shares and the remaining 2.2% counted as one firm, the tool gets 4,770 and 536. The court's increase of 510 cannot be reproduced from the shares it quotes because it comes from the district court's findings. The court applied Section 7 of the Clayton Act and used the HHI levels of the 1992 Guidelines (1,800 and 100). The 2010 Guidelines raised them to 2,500 and 200, and the 2023 Guidelines returned to 1,800 and 100."))
 
 market_cases <- list(
   heinz = list(
@@ -28,12 +28,6 @@ market_cases <- list(
     names = c("Firm 1", "Firm 2", "Firm 3", "Firm 4"),
     shares = c(10, 10, 10, 10), n_oth = 6, eta = 1.5, mergeA = 1, mergeB = 2,
     story = htmltools::p("Ten firms, each with 10% of the market. Two of them want to merge. Illustrative numbers."),
-    decided = NULL, source = NULL),
-  custom = list(
-    label = "Your own numbers",
-    names = c("Firm 1", "Firm 2", "Firm 3", "Firm 4"),
-    shares = c(30, 25, 20, 10), n_oth = 3, eta = 2, mergeA = 2, mergeB = 3,
-    story = htmltools::p("Set the shares of up to four firms; the rest of the market is split equally among the other firms."),
     decided = NULL, source = NULL)
 )
 
@@ -47,16 +41,11 @@ guppi_cases <- list(
     label = "Large shares, distant substitutes (illustrative)",
     sA = 25, sB = 15, DAB = 10, DBA = 12, mA = 30, mB = 25,
     rivals = c(15, 15, 15, 15),
-    note = "Two large firms serving different customers: few of A's customers would switch to B, and vice versa. Illustrative numbers."),
+    note = "Two large firms serve different customers, so few of A's customers would switch to B, and vice versa. Illustrative numbers."),
   heinz = list(
-    label = "Heinz/Beech-Nut: shoppers' diversion (illustrative)",
+    label = "Heinz/Beech-Nut, shoppers' diversion (illustrative)",
     sA = 17.4, sB = 15.4, DAB = 5, DBA = 5, mA = 40, mB = 40,
     rivals = c(65, 2.2),
-    note = "Shares from the case. Because the two brands were rarely in the same store, few shoppers would switch from one to the other: the diversion ratios and margins here are illustrative. What does the GUPPI miss?",
-    bench_note = "Shoppers' switching is not the whole story here: Heinz and Beech-Nut competed for retailers' second shelf slot, and that competition does not show up in shoppers' diversion."),
-  custom = list(
-    label = "Your own numbers",
-    sA = 20, sB = 15, DAB = 25, DBA = 30, mA = 35, mB = 35,
-    rivals = c(25, 20, 20),
-    note = NULL)
+    note = "Shares from the case. Because the two brands were rarely in the same store, few shoppers would switch from one to the other. The diversion ratios and margins here are illustrative. What does the GUPPI miss?",
+    bench_note = "Shoppers' switching is not the whole story here, because Heinz and Beech-Nut competed for retailers' second shelf slot, and that competition does not show up in shoppers' diversion.")
 )

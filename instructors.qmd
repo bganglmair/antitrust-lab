@@ -2,46 +2,46 @@
 title: "For instructors"
 ---
 
-Each tool follows the same layout: a question, a few controls with presets, one main chart, number tiles, and a verdict phrased as the legal test. An **Experiments** tab asks students to predict before they reveal the answer; a **Model** tab gives the formulas and sources.
+Each tool follows the same layout. It asks a question, offers a few controls with presets, and shows one main chart, number tiles, and a verdict. A **Questions** tab asks students to predict before they reveal the answer, and a **Math** tab gives the formulas and sources.
 
 ## Using a tool in class
 
-1. Open the tool before the session; the first load downloads the R runtime into the browser.
-2. Start from the default preset, which matches the standard textbook example.
+1. Open the tool before the session, because the first load downloads the R runtime into the browser.
+2. Start from the default preset.
 3. Ask the room to predict the effect of one change, then move the slider.
 
 ## Monopoly and welfare
 
 | Tab | Concept | Teaching point |
 |---|---|---|
-| 1 Monopoly and deadweight loss | Monopoly Pricing and Welfare; Deadweight Loss (DWL) | The monopolist cuts output; part of the lost consumer surplus is a transfer, the rest is lost to everyone |
-| 2 Rent seeking | Rent Seeking; Rent Seeking and the Social Cost of Monopoly | If firms spend resources to win the monopoly, the social cost is the triangle plus part of the rents |
+| 1 Monopoly and deadweight loss | Monopoly pricing and deadweight loss | The monopolist cuts output. Part of the lost consumer surplus is a transfer, and the rest is lost to everyone. |
+| 2 Rent seeking | Rent seeking and the social cost of monopoly | If firms spend resources to win the monopoly, the social cost is the triangle plus part of the rents. |
 
 ## How many firms?
 
 | Tab | Concept | Teaching point |
 |---|---|---|
-| 1 The trade-off | Model: Cournot Competition with n Firms; Model: Consumer Surplus and Profits | More firms lower the price but each one duplicates the fixed cost; consumers and society can prefer different numbers |
-| 2 Fixed costs and market structure | Fixed Costs and the Optimal Number of Firms; Model: The Optimal Number of Firms | High fixed costs support few firms; free entry can bring more firms than welfare calls for |
-| 3 Price competition | Extension beyond the slides: differentiated products, firms set prices | How firms compete after entry decides how many enter: soft competition attracts too many firms, tough competition can leave too few |
+| 1 The trade-off | Cournot competition with a fixed cost | More firms lower the price, but each one duplicates the fixed cost. Consumers and society can prefer different numbers of firms. |
+| 2 Fixed costs and market structure | Fixed costs and the optimal number of firms | High fixed costs support few firms, and free entry can bring more firms than welfare calls for. |
+| 3 Price competition | Price competition with differentiated products | How firms compete after entry decides how many enter. Soft competition attracts too many firms, and tough competition can leave too few. |
 
 ## Market definition
 
 | Tab | Concept | Teaching point |
 |---|---|---|
-| 1 Is a price increase profitable? | Critical Loss; Predicting the Loss: Two Routes; Whole Foods/Wild Oats | High margins lower the critical loss; margins and elasticities must fit together |
-| 2 SSNIP step by step | SSNIP Test: Steps; Running Case: Nestlé/Perrier | Widen the candidate market until the price increase is profitable |
-| 3 Cellophane fallacy | The Cellophane Fallacy | At the monopoly price the test always fails, so start from a competitive price |
+| 1 Is a price increase profitable? | Critical loss, with the loss predicted from the own-price elasticity or from the diversion ratio | High margins lower the critical loss, and margins and elasticities must fit together. |
+| 2 SSNIP step by step | The SSNIP test in Nestlé/Perrier and Whole Foods/Wild Oats | Widen the candidate market until the price increase is profitable. |
+| 3 Cellophane fallacy | The cellophane fallacy | At the monopoly price the test always fails, so start from a competitive price. |
 
 ## Concentration and market power
 
 | Tab | Concept | Teaching point |
 |---|---|---|
-| 1 Shares and markups | Lerner Index; Formal Steps for Indirect Approach; Industry-Wide Lerner Index | In Cournot, L = s/\|η\|; the same shares mean less market power when demand is more elastic |
-| 2 HHI and the merger screen | HHI; CR4; What Do Thresholds Actually Mean in Law? | Compute HHI and its change; US presumption vs. EU safe harbour (Heinz/Beech-Nut) |
-| 3 Is concentration market power? | High HHI Is Neither Necessary Nor Sufficient | The same HHI gives zero (Bertrand), Cournot or monopoly markups |
-| 4 Beyond HHI: diversion and GUPPI | Beyond HHI: Diversion Ratios; From Diversion Ratios to Pricing Pressure | HHI and GUPPI can disagree in both directions; diversion where the competition takes place |
+| 1 Shares and markups | The Lerner index in Cournot competition | In Cournot, L = s/\|η\|, so the same shares mean less market power when demand is more elastic. |
+| 2 HHI and the merger screen | HHI, CR4, and the legal thresholds | Compute the HHI and its change, and compare the US presumption with the EU safe harbor (Heinz/Beech-Nut). |
+| 3 Is concentration market power? | Concentration and conduct | The same HHI gives zero (Bertrand), Cournot, or monopoly markups. |
+| 4 Diversion and GUPPI | Diversion ratios and pricing pressure | HHI and GUPPI can disagree in both directions. Measure diversion where the competition takes place. |
 
 ## Technical notes
 
-The tools are R Shiny apps compiled with `shinylive` and run in the browser through WebAssembly (webR). Source code: this repository.
+The tools are R Shiny apps compiled with `shinylive` and run in the browser through WebAssembly (webR). The source code is in the site's GitHub repository.

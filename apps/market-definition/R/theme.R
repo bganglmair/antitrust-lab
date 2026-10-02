@@ -37,7 +37,9 @@ lab_theme <- function() {
     primary = lab_colors[["primary"]],
     base_font = bslib::font_collection("system-ui", "-apple-system", "Segoe UI", "Roboto", "Helvetica Neue", "Arial", "sans-serif"),
     "font-size-base" = "1.05rem"
-  )
+  ) |>
+    # On wide screens the charts would stretch across the whole window; keep the content column readable
+    bslib::bs_add_rules(".bslib-sidebar-layout > .main { max-width: 1150px; } .tab-content > .tab-pane { max-width: 1500px; }")
 }
 
 lab_navbar <- function() {
@@ -84,4 +86,14 @@ lab_header <- function(question, topic, tool = "General / Landing page") {
 pct <- function(x, digits = 1) {
   v <- sign(x) * floor(abs(100 * x) * 10^digits + 0.5 + 1e-9) / 10^digits + 0
   paste0(formatC(v, format = "f", digits = digits), "%")
+}
+
+# References in American Economic Review style. `...` is the reference text (use htmltools::em() for
+# journal and book titles); `url` adds a link shown as the DOI or as the host name.
+lab_ref <- function(..., url = NULL) {
+  link <- if (is.null(url)) NULL else htmltools::tagList(" ",
+    htmltools::a(if (grepl("doi.org/", url, fixed = TRUE)) url else sub("^https?://(www\\.)?([^/]+).*$", "\\2", url),
+                 href = url, target = "_blank", rel = "noopener"))
+  # collapse the line breaks htmltools puts between tags, so that no space appears before a comma
+  htmltools::tags$li(htmltools::HTML(gsub("\n", "", as.character(htmltools::tagList(..., link)), fixed = TRUE)))
 }
