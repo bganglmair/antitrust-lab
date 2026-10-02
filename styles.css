@@ -1,0 +1,19 @@
+:root { --lab-blue: #0072B2; --lab-muted: #6b7280; }
+.tool-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1rem; margin: 1rem 0 2rem 0; }
+.tool-card { border: 1px solid #e5e7eb; border-radius: 10px; padding: 1rem 1.1rem; background: #fff; }
+.tool-card h3 { font-size: 1.1rem; margin: 0 0 .4rem 0; }
+.tool-card .q { margin: 0 0 .5rem 0; }
+.tool-card .meta { color: var(--lab-muted); font-size: .9rem; }
+.tool-card.live { border-left: 4px solid var(--lab-blue); }
+.tool-card.soon { opacity: .6; }
+.tool-card a.go { display: inline-block; margin-top: .6rem; font-weight: 600; text-decoration: none; }
+.part { margin-top: 1.6rem; }
+
+/* Editorial scheme */
+body { background-color: #FFF9F2; color: #33302E; }
+.navbar { background-color: #F2E5D7 !important; }
+a { color: #0F5499; }
+.tool-card { background: #FFFDF9; border-color: #EBDFD3; }
+.tool-card.live { border-left-color: #0F5499; }
+:root { --lab-blue: #0F5499; --lab-muted: #66605C; }
+.nav-footer, footer.footer { background-color: #FFF9F2 !important; border-top: 1px solid #EBDFD3; }

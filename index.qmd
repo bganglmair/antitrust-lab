@@ -1,0 +1,96 @@
+---
+title: "Antitrust Lab"
+subtitle: "Interactive tools for competition economics"
+---
+
+Change the inputs, watch the outcome, and test the economics behind competition law. Each tool runs in your browser: no installation, no login. The first visit takes a little longer while the tool loads.
+
+::: {.part}
+## Markets and market power
+:::
+
+```{=html}
+<div class="tool-grid">
+  <div class="tool-card live">
+    <h3>Monopoly and welfare</h3>
+    <p class="q">What does monopoly cost society? Consumer and producer surplus, deadweight loss, and rent seeking.</p>
+    <p class="meta">About 10 minutes</p>
+    <a class="go" href="welfare/">Open the tool &rarr;</a>
+  </div>
+  <div class="tool-card live">
+    <h3>How many firms?</h3>
+    <p class="q">Are more firms always better? Competition, fixed costs, and free entry.</p>
+    <p class="meta">About 10 minutes</p>
+    <a class="go" href="how-many-firms/">Open the tool &rarr;</a>
+  </div>
+  <div class="tool-card live">
+    <h3>Market definition</h3>
+    <p class="q">Is this product a market of its own? SSNIP test, critical loss, and the cellophane fallacy.</p>
+    <p class="meta">About 15 minutes</p>
+    <a class="go" href="market-definition/">Open the tool &rarr;</a>
+  </div>
+  <div class="tool-card live">
+    <h3>Concentration and market power</h3>
+    <p class="q">How much market power do concentrated markets have? Lerner index, HHI and the merger screen, GUPPI.</p>
+    <p class="meta">About 15 minutes</p>
+    <a class="go" href="concentration/">Open the tool &rarr;</a>
+  </div>
+</div>
+```
+
+::: {.part}
+## Cartels, collusion, and mergers
+:::
+
+```{=html}
+<div class="tool-grid">
+  <div class="tool-card soon">
+    <h3>Cartel damages</h3>
+    <p class="q">How much did the cartel overcharge? Difference-in-differences and structural estimates.</p>
+    <p class="meta">Coming soon</p>
+  </div>
+  <div class="tool-card soon">
+    <h3>Tacit collusion</h3>
+    <p class="q">When can firms keep prices high without an agreement?</p>
+    <p class="meta">Coming soon</p>
+  </div>
+  <div class="tool-card soon">
+    <h3>Merger simulator</h3>
+    <p class="q">Will this merger raise prices? Unilateral effects, efficiencies, remedies.</p>
+    <p class="meta">Coming soon</p>
+  </div>
+</div>
+```
+
+::: {.part}
+## Vertical relations
+:::
+
+```{=html}
+<div class="tool-grid">
+  <div class="tool-card soon">
+    <h3>Vertical relations</h3>
+    <p class="q">What changes when a supplier and its retailer deal with each other, or merge? Double marginalization, contracts, and foreclosure.</p>
+    <p class="meta">Coming soon</p>
+  </div>
+</div>
+```
+
+::: {.part}
+## Digital markets
+:::
+
+```{=html}
+<div class="tool-grid">
+  <div class="tool-card soon">
+    <h3>Platforms and tipping</h3>
+    <p class="q">Why do some markets tip to a single platform? Network effects, multihoming, and prices of zero.</p>
+    <p class="meta">Coming soon</p>
+  </div>
+  <div class="tool-card soon">
+    <h3>Algorithmic pricing</h3>
+    <p class="q">Can pricing algorithms learn to collude without an agreement?</p>
+    <p class="meta">Coming soon</p>
+  </div>
+</div>
+```

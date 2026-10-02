@@ -1,0 +1,46 @@
+---
+title: "About this site"
+---
+
+## What this site is
+
+Antitrust Lab is a collection of interactive tools for teaching competition economics. It is a non-commercial teaching project by [Bernhard Ganglmair](https://bganglmair.github.io). All numbers in the tools are illustrative. Nothing on this site is legal advice.
+
+## How the tools work
+
+Each tool is a small program. When you open a tool, the program is downloaded into your browser and runs on your own device. That is why the first visit takes a little longer.
+
+- The numbers you enter and the sliders you move stay on your device. They are not sent to a server.
+- You need no account and no login.
+- The site sets no cookies.
+
+## What is recorded
+
+**Hosting.** The site is hosted on GitHub Pages. As with any website, the host's servers receive your IP address when your browser requests a page. GitHub describes what it does with this in its [privacy statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
+
+**Visit counter.** The site counts how often each page is opened, using [GoatCounter](https://www.goatcounter.com). For each visit the counter records the page, the country, the type of browser and device, the screen size, the browser language, and the page you came from. It sets no cookies, does not store your IP address, and builds no profile of you. The counts tell me which tools are used; they do not tell me who used them or what was entered.
+
+**Feedback form.** The "Feedback" link opens [a form on Google Forms](https://docs.google.com/forms/d/e/1FAIpQLSdvIhiTo6BXO_Byt6Qrma8wXMDMbbSGmEHWPUL70CylOBTwGg/viewform). Using it is voluntary. The form asks for no name and no email address; what you write is visible only to me. Google's [privacy policy](https://policies.google.com/privacy) applies to the form.
+
+## Contact
+
+Bernhard Ganglmair
+
+ZEW Mannheim\
+L7 1\
+68161 Mannheim\
+Germany
+
+University of Mannheim\
+Department of Economics\
+L7 3-5\
+68161 Mannheim\
+Germany
+
+Email: [b.ganglmair@gmail.com](mailto:b.ganglmair@gmail.com)
+
+Further contact details: [bganglmair.github.io](https://bganglmair.github.io)
+
+## License
+
+The source code of the tools is available in the site's repository under the MIT License.

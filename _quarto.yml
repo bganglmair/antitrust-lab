@@ -1,0 +1,35 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - index.qmd
+    - instructors.qmd
+    - about.qmd
+
+website:
+  title: "Antitrust Lab"
+  site-url: "https://bganglmair.github.io/antitrust-lab/"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Tools
+      - href: instructors.qmd
+        text: For instructors
+      - href: about.qmd
+        text: About
+    right:
+      - href: "https://docs.google.com/forms/d/e/1FAIpQLSdvIhiTo6BXO_Byt6Qrma8wXMDMbbSGmEHWPUL70CylOBTwGg/viewform?usp=pp_url&entry.439990338=General+/+Landing+page"
+        text: Feedback
+        target: _blank
+      - href: https://bganglmair.github.io
+        text: Bernhard Ganglmair
+  page-footer:
+    center: "Antitrust Lab · Interactive tools for competition economics · [Bernhard Ganglmair](https://bganglmair.github.io) · [About this site](about.qmd)"
+
+format:
+  html:
+    theme: [cosmo, lab.scss]
+    css: styles.css
+    toc: false
+    include-in-header: counter.html
+    lang: en-US

@@ -1,0 +1,128 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About this site",
+    "section": "",
+    "text": "Antitrust Lab is a collection of interactive tools for teaching competition economics. It is a non-commercial teaching project by Bernhard Ganglmair. All numbers in the tools are illustrative. Nothing on this site is legal advice."
+  },
+  {
+    "objectID": "about.html#what-this-site-is",
+    "href": "about.html#what-this-site-is",
+    "title": "About this site",
+    "section": "",
+    "text": "Antitrust Lab is a collection of interactive tools for teaching competition economics. It is a non-commercial teaching project by Bernhard Ganglmair. All numbers in the tools are illustrative. Nothing on this site is legal advice."
+  },
+  {
+    "objectID": "about.html#how-the-tools-work",
+    "href": "about.html#how-the-tools-work",
+    "title": "About this site",
+    "section": "How the tools work",
+    "text": "How the tools work\nEach tool is a small program. When you open a tool, the program is downloaded into your browser and runs on your own device. That is why the first visit takes a little longer.\n\nThe numbers you enter and the sliders you move stay on your device. They are not sent to a server.\nYou need no account and no login.\nThe site sets no cookies."
+  },
+  {
+    "objectID": "about.html#what-is-recorded",
+    "href": "about.html#what-is-recorded",
+    "title": "About this site",
+    "section": "What is recorded",
+    "text": "What is recorded\nHosting. The site is hosted on GitHub Pages. As with any website, the host’s servers receive your IP address when your browser requests a page. GitHub describes what it does with this in its privacy statement.\nVisit counter. The site counts how often each page is opened, using GoatCounter. For each visit the counter records the page, the country, the type of browser and device, the screen size, the browser language, and the page you came from. It sets no cookies, does not store your IP address, and builds no profile of you. The counts tell me which tools are used; they do not tell me who used them or what was entered.\nFeedback form. The “Feedback” link opens a form on Google Forms. Using it is voluntary. The form asks for no name and no email address; what you write is visible only to me. Google’s privacy policy applies to the form."
+  },
+  {
+    "objectID": "about.html#contact",
+    "href": "about.html#contact",
+    "title": "About this site",
+    "section": "Contact",
+    "text": "Contact\nBernhard Ganglmair\nZEW Mannheim\nL7 1\n68161 Mannheim\nGermany\nUniversity of Mannheim\nDepartment of Economics\nL7 3-5\n68161 Mannheim\nGermany\nEmail: b.ganglmair@gmail.com\nFurther contact details: bganglmair.github.io"
+  },
+  {
+    "objectID": "about.html#license",
+    "href": "about.html#license",
+    "title": "About this site",
+    "section": "License",
+    "text": "License\nThe source code of the tools is available in the site’s repository under the MIT License."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Antitrust Lab",
+    "section": "",
+    "text": "Change the inputs, watch the outcome, and test the economics behind competition law. Each tool runs in your browser: no installation, no login. The first visit takes a little longer while the tool loads."
+  },
+  {
+    "objectID": "index.html#markets-and-market-power",
+    "href": "index.html#markets-and-market-power",
+    "title": "Antitrust Lab",
+    "section": "Markets and market power",
+    "text": "Markets and market power"
+  },
+  {
+    "objectID": "index.html#cartels-collusion-and-mergers",
+    "href": "index.html#cartels-collusion-and-mergers",
+    "title": "Antitrust Lab",
+    "section": "Cartels, collusion, and mergers",
+    "text": "Cartels, collusion, and mergers"
+  },
+  {
+    "objectID": "index.html#vertical-relations",
+    "href": "index.html#vertical-relations",
+    "title": "Antitrust Lab",
+    "section": "Vertical relations",
+    "text": "Vertical relations"
+  },
+  {
+    "objectID": "index.html#digital-markets",
+    "href": "index.html#digital-markets",
+    "title": "Antitrust Lab",
+    "section": "Digital markets",
+    "text": "Digital markets"
+  },
+  {
+    "objectID": "instructors.html",
+    "href": "instructors.html",
+    "title": "For instructors",
+    "section": "",
+    "text": "Each tool follows the same layout: a question, a few controls with presets, one main chart, number tiles, and a verdict phrased as the legal test. An Experiments tab asks students to predict before they reveal the answer; a Model tab gives the formulas and sources."
+  },
+  {
+    "objectID": "instructors.html#using-a-tool-in-class",
+    "href": "instructors.html#using-a-tool-in-class",
+    "title": "For instructors",
+    "section": "Using a tool in class",
+    "text": "Using a tool in class\n\nOpen the tool before the session; the first load downloads the R runtime into the browser.\nStart from the default preset, which matches the standard textbook example.\nAsk the room to predict the effect of one change, then move the slider."
+  },
+  {
+    "objectID": "instructors.html#monopoly-and-welfare",
+    "href": "instructors.html#monopoly-and-welfare",
+    "title": "For instructors",
+    "section": "Monopoly and welfare",
+    "text": "Monopoly and welfare\n\n\n\n\n\n\n\n\nTab\nConcept\nTeaching point\n\n\n\n\n1 Monopoly and deadweight loss\nMonopoly Pricing and Welfare; Deadweight Loss (DWL)\nThe monopolist cuts output; part of the lost consumer surplus is a transfer, the rest is lost to everyone\n\n\n2 Rent seeking\nRent Seeking; Rent Seeking and the Social Cost of Monopoly\nIf firms spend resources to win the monopoly, the social cost is the triangle plus part of the rents"
+  },
+  {
+    "objectID": "instructors.html#how-many-firms",
+    "href": "instructors.html#how-many-firms",
+    "title": "For instructors",
+    "section": "How many firms?",
+    "text": "How many firms?\n\n\n\n\n\n\n\n\nTab\nConcept\nTeaching point\n\n\n\n\n1 The trade-off\nModel: Cournot Competition with n Firms; Model: Consumer Surplus and Profits\nMore firms lower the price but each one duplicates the fixed cost; consumers and society can prefer different numbers\n\n\n2 Fixed costs and market structure\nFixed Costs and the Optimal Number of Firms; Model: The Optimal Number of Firms\nHigh fixed costs support few firms; free entry can bring more firms than welfare calls for\n\n\n3 Price competition\nExtension beyond the slides: differentiated products, firms set prices\nHow firms compete after entry decides how many enter: soft competition attracts too many firms, tough competition can leave too few"
+  },
+  {
+    "objectID": "instructors.html#market-definition",
+    "href": "instructors.html#market-definition",
+    "title": "For instructors",
+    "section": "Market definition",
+    "text": "Market definition\n\n\n\n\n\n\n\n\nTab\nConcept\nTeaching point\n\n\n\n\n1 Is a price increase profitable?\nCritical Loss; Predicting the Loss: Two Routes; Whole Foods/Wild Oats\nHigh margins lower the critical loss; margins and elasticities must fit together\n\n\n2 SSNIP step by step\nSSNIP Test: Steps; Running Case: Nestlé/Perrier\nWiden the candidate market until the price increase is profitable\n\n\n3 Cellophane fallacy\nThe Cellophane Fallacy\nAt the monopoly price the test always fails, so start from a competitive price"
+  },
+  {
+    "objectID": "instructors.html#concentration-and-market-power",
+    "href": "instructors.html#concentration-and-market-power",
+    "title": "For instructors",
+    "section": "Concentration and market power",
+    "text": "Concentration and market power\n\n\n\n\n\n\n\n\nTab\nConcept\nTeaching point\n\n\n\n\n1 Shares and markups\nLerner Index; Formal Steps for Indirect Approach; Industry-Wide Lerner Index\nIn Cournot, L = s/|η|; the same shares mean less market power when demand is more elastic\n\n\n2 HHI and the merger screen\nHHI; CR4; What Do Thresholds Actually Mean in Law?\nCompute HHI and its change; US presumption vs. EU safe harbour (Heinz/Beech-Nut)\n\n\n3 Is concentration market power?\nHigh HHI Is Neither Necessary Nor Sufficient\nThe same HHI gives zero (Bertrand), Cournot or monopoly markups\n\n\n4 Beyond HHI: diversion and GUPPI\nBeyond HHI: Diversion Ratios; From Diversion Ratios to Pricing Pressure\nHHI and GUPPI can disagree in both directions; diversion where the competition takes place"
+  },
+  {
+    "objectID": "instructors.html#technical-notes",
+    "href": "instructors.html#technical-notes",
+    "title": "For instructors",
+    "section": "Technical notes",
+    "text": "Technical notes\nThe tools are R Shiny apps compiled with shinylive and run in the browser through WebAssembly (webR). Source code: this repository."
+  }
+]
