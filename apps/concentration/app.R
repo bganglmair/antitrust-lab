@@ -5,7 +5,7 @@ library(ggplot2)
 
 # Shiny sources R/ automatically (theme.R, conc.R, cases.R)
 
-app_version <- "0.8 (2026-10-02)"
+app_version <- "0.9 (2026-10-03)"
 
 # Blue: a competition concern is indicated. Sand: no concern indicated.
 verdict_box <- function(title, value, concern, note = NULL) {
@@ -102,7 +102,7 @@ tab2 <- nav_panel("2 HHI and the merger screen", value = "t2",
     uiOutput("t2_us"), uiOutput("t2_eu")),
   card(card_header("The merger on the screening map: HHI after the merger and its change"),
        plotOutput("t2_plot", height = "380px"),
-       card_footer("The dot is this merger in both panels. Sand marks the area where the screen raises no concern, and blue marks the area where it does. In the United States, harm is presumed in the blue area. In the European Union, the sand area is the safe harbor, and a merger in the blue area is assessed on the merits without a presumption. The tests based on the combined share are not drawn. The vertical axis is fixed and ends at 1,000, and a merger with a larger change is drawn as a triangle at the top edge.")),
+       card_footer("The dot is this merger in both panels. Sand marks the area where the screen raises no concern, and blue marks the area where it does. In the United States, harm is presumed in the blue area. In the European Union, the sand area is often called a “safe harbor”, and a merger in the blue area is assessed on the merits without a presumption. The guidelines do not use this term. Below the thresholds, concerns are unlikely, but there are exceptions and nothing is presumed. The tests based on the combined share are not drawn. The vertical axis is fixed and ends at 1,000, and a merger with a larger change is drawn as a triangle at the top edge.")),
   muted("A blue tile means that the screen does not clear the merger. In the US, harm is then presumed. In the EU, the merger is outside the levels where concerns are unlikely, so the Commission looks closer, but nothing is presumed. A sand tile means that the screen raises no flag. The EU levels come from the Horizontal Merger Guidelines (2004). They have exceptions and create no presumption either way, and revised guidelines are expected by the end of 2026. The US levels come from the Merger Guidelines (2023).")
 )
 
@@ -149,7 +149,7 @@ tab5 <- nav_panel("Questions", value = "t5",
       p(strong("Zero. "), "Each firm undercuts the other until price equals cost (Bertrand). With quantity competition (Cournot), the same HHI gives 25% at |η| = 2, and with full coordination it gives 50%. The HHI alone does not tell us which.")),
     experiment("4", "In tab 4, choose close substitutes with small shares. Does the HHI screen catch this merger?",
       c("Yes", "No"),
-      p(strong("No. "), "The HHI rises from 1,006 to 1,166, so there is no US presumption and the merger is inside the EU safe harbor. Yet 40–45% of each brand's lost customers would go to the other, far more than the 9–11% their shares suggest. GUPPI is 16–18%.")),
+      p(strong("No. "), "The HHI rises from 1,006 to 1,166, so there is no US presumption and the merger is inside the EU “safe harbor”. Yet 40–45% of each brand's lost customers would go to the other, far more than the 9–11% their shares suggest. GUPPI is 16–18%.")),
     experiment("5", "In tab 4, choose large shares and distant substitutes. The HHI triggers the US presumption. Must prices rise?",
       c("Yes, the presumption decides", "Not necessarily"),
       p(strong("Not necessarily. "), "GUPPI is low (2.5% and 3.6%), so unilateral pricing pressure is weak. But the presumption still stands unless the parties rebut it with evidence, and with HHI at 2,500 the risk of coordination remains.")),
@@ -342,7 +342,7 @@ server <- function(input, output, session) {
   output$t2_eu <- renderUI({
     r <- scr()
     verdict_box("Is the merger outside the EU 2004 levels where concerns are unlikely?", if (r$eu) "No" else "Yes", !r$eu,
-      if (r$eu) paste0("Inside the safe harbor, because ", r$eu_route, ".") else "Outside the safe harbor, there is no presumption either way, and the Commission assesses the effects.")
+      if (r$eu) paste0("Inside the “safe harbor”, because ", r$eu_route, ".") else "Outside the “safe harbor”, there is no presumption either way, and the Commission assesses the effects.")
   })
 
   output$t2_plot <- renderPlot({
@@ -360,7 +360,7 @@ server <- function(input, output, session) {
     txt <- data.frame(panel = factor(c(us, us, eu, eu), levels = lv),
                       x = c(9800, 100, 100, 9800), y = c(0.95, 0.95, 0.95, 0.95) * ymax,
                       hjust = c(1, 0, 0, 1),
-                      lab = c("Harm is presumed", "No presumption", "Concerns\nunlikely", "Outside the safe harbor:\nassessed on the merits"),
+                      lab = c("Harm is presumed", "No presumption", "Concerns\nunlikely", "Outside the “safe harbor”:\nassessed on the merits"),
                       col = c(lab_colors[["pass"]], lab_colors[["ink"]], lab_colors[["ink"]], lab_colors[["pass"]]))
     off <- r$delta > ymax
     pt <- data.frame(panel = factor(lv, levels = lv), x = r$post, y = min(r$delta, ymax),
@@ -438,8 +438,8 @@ server <- function(input, output, session) {
   output$t4_note <- renderUI({ n <- gcase()$note; if (is.null(n)) NULL else card(card_body(p(n))) })
   output$t4_us <- renderUI(verdict_box("US presumption?", if (g()$us) "Yes" else "No", g()$us,
                                        paste0("HHI ", fmt_hhi(g()$pre), " → ", fmt_hhi(g()$post), ", change ", fmt_hhi(g()$delta))))
-  output$t4_eu <- renderUI(verdict_box("Outside the EU safe harbor?", if (g()$eu) "No" else "Yes", !g()$eu,
-                                       if (g()$eu) "Inside the safe harbor, concerns are unlikely" else "No presumption either way"))
+  output$t4_eu <- renderUI(verdict_box("Outside the EU “safe harbor”?", if (g()$eu) "No" else "Yes", !g()$eu,
+                                       if (g()$eu) "Inside the “safe harbor”, concerns are unlikely" else "No presumption either way"))
   output$t4_gA <- renderUI(number_box("GUPPI of A", pct(g()$gA), paste0(input$gDAB, "% diversion × ", input$gmB, "% margin of B"), lab_colors[["actual"]]))
   output$t4_gB <- renderUI(number_box("GUPPI of B", pct(g()$gB), paste0(input$gDBA, "% diversion × ", input$gmA, "% margin of A"), lab_colors[["actual"]]))
 

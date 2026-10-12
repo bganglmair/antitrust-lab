@@ -123,7 +123,14 @@
     "href": "instructors.html#concentration-and-market-power",
     "title": "For instructors",
     "section": "Concentration and market power",
-    "text": "Concentration and market power\n\n\n\n\n\n\n\n\nTab\nConcept\nTeaching point\n\n\n\n\n1 Shares and markups\nThe Lerner index in Cournot competition\nIn Cournot, L = s/|η|, so the same shares mean less market power when demand is more elastic.\n\n\n2 HHI and the merger screen\nHHI, CR4, and the legal thresholds\nCompute the HHI and its change, and compare the US presumption with the EU safe harbor (Heinz/Beech-Nut).\n\n\n3 Is concentration market power?\nConcentration and conduct\nThe same HHI gives zero (Bertrand), Cournot, or monopoly markups.\n\n\n4 Diversion and GUPPI\nDiversion ratios and pricing pressure\nHHI and GUPPI can disagree in both directions. Measure diversion where the competition takes place."
+    "text": "Concentration and market power\n\n\n\n\n\n\n\n\nTab\nConcept\nTeaching point\n\n\n\n\n1 Shares and markups\nThe Lerner index in Cournot competition\nIn Cournot, L = s/|η|, so the same shares mean less market power when demand is more elastic.\n\n\n2 HHI and the merger screen\nHHI, CR4, and the legal thresholds\nCompute the HHI and its change, and compare the US presumption with the EU “safe harbor” (Heinz/Beech-Nut).\n\n\n3 Is concentration market power?\nConcentration and conduct\nThe same HHI gives zero (Bertrand), Cournot, or monopoly markups.\n\n\n4 Diversion and GUPPI\nDiversion ratios and pricing pressure\nHHI and GUPPI can disagree in both directions. Measure diversion where the competition takes place."
+  },
+  {
+    "objectID": "instructors.html#cartel-damages",
+    "href": "instructors.html#cartel-damages",
+    "title": "For instructors",
+    "section": "Cartel damages",
+    "text": "Cartel damages\n\n\n\n\n\n\n\n\nTab\nConcept\nTeaching point\n\n\n\n\n1 Before and after\nThe but-for price and the before-and-after comparison (lysine cartel)\nThe estimate is only as good as the comparison months. Rising costs, a price war, or overshooting prices bias it.\n\n\n2 Comparator market\nYardstick and difference-in-differences\nDifference-in-differences needs parallel trends and a comparator that the cartel did not affect.\n\n\n3 Which competition without the cartel?\nBut-for price from a model of competition\nBertrand gives a lower but-for price and higher damages than Cournot. An overcharge in percent needs its base.\n\n\n4 Who bears the harm?\nPass-on, the output effect, and who can claim\nThe direct purchasers lose the overcharge minus the pass-on plus the profit on lost sales. EU and US law divide the claims differently."
   },
   {
     "objectID": "instructors.html#technical-notes",

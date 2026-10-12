@@ -38,9 +38,18 @@ Each tool follows the same layout. It asks a question, offers a few controls wit
 | Tab | Concept | Teaching point |
 |---|---|---|
 | 1 Shares and markups | The Lerner index in Cournot competition | In Cournot, L = s/\|η\|, so the same shares mean less market power when demand is more elastic. |
-| 2 HHI and the merger screen | HHI, CR4, and the legal thresholds | Compute the HHI and its change, and compare the US presumption with the EU safe harbor (Heinz/Beech-Nut). |
+| 2 HHI and the merger screen | HHI, CR4, and the legal thresholds | Compute the HHI and its change, and compare the US presumption with the EU “safe harbor” (Heinz/Beech-Nut). |
 | 3 Is concentration market power? | Concentration and conduct | The same HHI gives zero (Bertrand), Cournot, or monopoly markups. |
 | 4 Diversion and GUPPI | Diversion ratios and pricing pressure | HHI and GUPPI can disagree in both directions. Measure diversion where the competition takes place. |
+
+## Cartel damages
+
+| Tab | Concept | Teaching point |
+|---|---|---|
+| 1 Before and after | The but-for price and the before-and-after comparison (lysine cartel) | The estimate is only as good as the comparison months. Rising costs, a price war, or overshooting prices bias it. |
+| 2 Comparator market | Yardstick and difference-in-differences | Difference-in-differences needs parallel trends and a comparator that the cartel did not affect. |
+| 3 Which competition without the cartel? | But-for price from a model of competition | Bertrand gives a lower but-for price and higher damages than Cournot. An overcharge in percent needs its base. |
+| 4 Who bears the harm? | Pass-on, the output effect, and who can claim | The direct purchasers lose the overcharge minus the pass-on plus the profit on lost sales. EU and US law divide the claims differently. |
 
 ## Technical notes
 
