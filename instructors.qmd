@@ -51,6 +51,15 @@ Each tool follows the same layout. It asks a question, offers a few controls wit
 | 3 Which competition without the cartel? | But-for price from a model of competition | Bertrand gives a lower but-for price and higher damages than Cournot. An overcharge in percent needs its base. |
 | 4 Who bears the harm? | Pass-on, the output effect, and who can claim | The direct purchasers lose the overcharge minus the pass-on plus the profit on lost sales. EU and US law divide the claims differently. |
 
+## Tacit collusion
+
+| Tab | Concept | Teaching point |
+|---|---|---|
+| 1 The incentive constraint | Collusive, deviation, and punishment profits and the critical discount factor (Danish ready-mixed concrete) | Collusion lasts when the future loss from a price war outweighs the gain from cheating today. |
+| 2 What makes collusion easier? | Number of firms, interest rate, and how fast rivals see a price cut | Faster detection raises the effective discount factor. Transparency can help a cartel more than it helps buyers. |
+| 3 Multi-market contact | Pooling incentive constraints across markets | Meeting in several markets never makes collusion harder. It helps only when the markets differ. |
+| 4 Price wars without cheating | Green and Porter: demand shocks that look like cheating | Price wars can be part of a working collusive scheme. A price war is not proof that collusion has broken down. |
+
 ## Technical notes
 
 The tools are R Shiny apps compiled with `shinylive` and run in the browser through WebAssembly (webR). The source code is in the site's GitHub repository.

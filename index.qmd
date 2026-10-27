@@ -50,10 +50,11 @@ Change the inputs, watch the outcome, and test the economics behind competition 
     <p class="meta">About 20 minutes</p>
     <a class="go" href="cartel-damages/">Open the tool &rarr;</a>
   </div>
-  <div class="tool-card soon">
+  <div class="tool-card live">
     <h3>Tacit collusion</h3>
-    <p class="q">When can firms keep prices high without an agreement?</p>
-    <p class="meta">Coming soon</p>
+    <p class="q">When can firms keep prices high without an agreement? The incentive constraint, transparency, multi-market contact, and price wars.</p>
+    <p class="meta">About 20 minutes</p>
+    <a class="go" href="tacit-collusion/">Open the tool &rarr;</a>
   </div>
   <div class="tool-card soon">
     <h3>Merger simulator</h3>
