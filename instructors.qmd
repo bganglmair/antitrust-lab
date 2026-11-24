@@ -60,6 +60,12 @@ Each tool follows the same layout. It asks a question, offers a few controls wit
 | 3 Multi-market contact | Pooling incentive constraints across markets | Meeting in several markets never makes collusion harder. It helps only when the markets differ. |
 | 4 Price wars without cheating | Green and Porter: demand shocks that look like cheating | Price wars can be part of a working collusive scheme. A price war is not proof that collusion has broken down. |
 
+## Common ownership
+
+| Tab | Concept | Teaching point |
+|---|---|---|
+| Calculator | Profit weights κ with one share, one vote; HHI, MHHI delta and MHHI for 3 to 6 firms and 2 to 6 investors | Common owners give each firm a reason to care about its rivals' profits. Buying shares does not change the HHI, but it can raise the MHHI a lot. A firm with concentrated owners puts little weight on rivals; a firm owned mainly by a common fund puts a large weight on them. |
+
 ## Technical notes
 
 The tools are R Shiny apps compiled with `shinylive` and run in the browser through WebAssembly (webR). The source code is in the site's GitHub repository.

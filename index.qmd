@@ -61,6 +61,12 @@ Change the inputs, watch the outcome, and test the economics behind competition 
     <p class="q">Will this merger raise prices? Unilateral effects, efficiencies, remedies.</p>
     <p class="meta">Coming soon</p>
   </div>
+  <div class="tool-card live">
+    <h3>Common ownership</h3>
+    <p class="q">How much do commonly owned firms care about each other's profits? A calculator for profit weights and the modified HHI.</p>
+    <p class="meta">About 10 minutes</p>
+    <a class="go" href="common-ownership/">Open the tool &rarr;</a>
+  </div>
 </div>
 ```
 
