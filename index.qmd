@@ -56,10 +56,11 @@ Change the inputs, watch the outcome, and test the economics behind competition 
     <p class="meta">About 20 minutes</p>
     <a class="go" href="tacit-collusion/">Open the tool &rarr;</a>
   </div>
-  <div class="tool-card soon">
+  <div class="tool-card live">
     <h3>Merger simulator</h3>
-    <p class="q">Will this merger raise prices? Unilateral effects, efficiencies, remedies.</p>
-    <p class="meta">Coming soon</p>
+    <p class="q">Will this merger raise prices? Price effects and GUPPI, cost savings, who gains and loses, and divestiture.</p>
+    <p class="meta">About 20 minutes</p>
+    <a class="go" href="merger-simulator/">Open the tool &rarr;</a>
   </div>
   <div class="tool-card live">
     <h3>Common ownership</h3>
